@@ -1,0 +1,24 @@
+#svg-cavans{
+    width: 100%;
+    height: 100%;
+}
+
+#gray{
+    fill: gray;
+}
+  .container {
+    display: grid;
+    /* Definition of grid columns, automatically adapted and set to a minimum width of 300 pixels and a maximum width of 1fr (equal to the remaining space) */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+
+ 
+  }
+/* Adding a background colour to the 'button' */
+  .background {
+    background-color: #1dcac2;
+    padding: 20px;
+    border-radius: 5px;
+ 
+  }
